@@ -1,9 +1,6 @@
 const screens = document.querySelectorAll(".screen");
 
-let currentScreen = 0;
-
 function showScreen(index){
-
     screens.forEach(screen=>{
         screen.classList.remove("active");
     });
@@ -33,11 +30,11 @@ function startStory(){
 }
 
 const images = [
-    "images/Naila1.jpg",
-    "images/Naila2.jpg",
-    "images/Naila3.jpg",
-    "images/Naila4.jpg",
-    "images/Naila5.jpg"
+    "Naila1.jpg",
+    "Naila2.jpg",
+    "Naila3.jpg",
+    "Naila4.jpg",
+    "Naila5.jpg"
 ];
 
 let currentImage = 0;
